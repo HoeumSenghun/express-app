@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import { AppProviders } from '@/context/AppProviders'
 
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <body className="antialiased">
         <AppProviders>{children}</AppProviders>
+        <Analytics />
       </body>
     </html>
   )
