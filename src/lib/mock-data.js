@@ -210,18 +210,18 @@ export const ACCOUNT_SUB_NAV = [
 ]
 
 export const MOCK_ACCOUNT = {
-  fullName: 'Piseth Soka',
+  fullName: 'sun heng',
   dob: '15/03/1990',
   phone: '0128842100',
-  email: 'piseth.soka@demo.mail',
+  email: 'sunheng@gmail.com',
   idCard: '010884210',
   address: 'Street 60, Siem Reap',
   province: 'Siem Reap',
-  district: 'Siem Reap City',
+  district: 'Battambang City',
   commune: 'Svay Dangkum',
   bank: 'Demo Development Bank',
   accountNumber: '0018842100',
-  accountOwner: 'Piseth Soka',
+  accountOwner: 'sun heng',
   paymentMethod: 'Deduct service fee from COD amount',
   paymentType: 'Bank transfer',
   taxId: 'K00884210',
